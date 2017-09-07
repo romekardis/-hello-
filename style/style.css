@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	color: #fff;
+}
+
+.container {
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: 100%;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: auto;
+
+}
+
+.menu {
+	padding-top: 130px;
+}
+
+.menu-logo {
+	display: inline-block;
+	padding-left: 130px;
+	font: 700 45px/45px 'Saira Extra Condensed', sans-serif;
+}
+.container span {
+	color: #d93534;
+}
+
+.menu-icons {
+	padding-right: 130px;
+	display: inline-block;
+	float: right;
+}
+
+.menu-icons ul li {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	margin-right: 70px;
+}
+.menu-icons ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.menu-icons ul > li:first-child {
+	background: url(../img/icons.png) 0px -45px no-repeat;
+}
+.menu-icons ul > li:first-child:hover {
+	background: url(../img/icons.png) 0px 0px no-repeat;
+}
+
+/*_______*/
+.menu-icons ul > li:nth-child(2) {
+	background: url(../img/icons.png) -45px -45px no-repeat;
+}
+.menu-icons ul > li:nth-child(2):hover {
+	background: url(../img/icons.png) -45px 0px no-repeat;
+}
+
+/*_______*/
+.menu-icons ul > li:nth-child(3) {
+	background: url(../img/icons.png) -90px -45px no-repeat;
+}
+.menu-icons ul > li:nth-child(3):hover {
+	background: url(../img/icons.png) -90px 0px no-repeat;
+}
+
+
+/*_______*/
+.menu-icons ul > li:nth-child(4) {
+	background: url(../img/icons.png) -135px -45px no-repeat;
+}
+.menu-icons ul > li:nth-child(4):hover {
+	background: url(../img/icons.png) -135px 0px no-repeat;
+}
+
+/*_______*/
+.menu-icons ul > li:nth-child(5) {
+	margin-right: 0;
+	background: url(../img/icons.png) -180px -45px no-repeat;	
+}
+.menu-icons ul > li:nth-child(5):hover {
+	background: url(../img/icons.png) -180px 0px no-repeat;	
+}
+
+.hello-there {
+	margin-top: 200px;
+}
+
+.hello-there > * {
+	text-align: center;
+}
+
+
+.hello-there h1 {
+	font: 700 80px/60px 'Rubik', sans-serif;
+	color: white;
+	text-align: center;
+}
+.hello-there h1 span {
+	border: 5px solid #d93534;
+	padding: 0 15px;
+	margin-right: 15px;
+}
+.hello-there h2 {
+	font: 400 40px/30px 'Indie Flower', cursive;
+	color: white;
+	text-align: center;
+	margin-top: 70px;
+}
+.hello-there h3 {
+	font: 400 30px/45px 'Indie Flower', cursive;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.lets-start {
+	display: block;
+	height: 100px;
+	text-align: center;
+	margin: 200px 0 0 0;
+}
+
+.lets-start-btn {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	transition: 0.3s linear;
+
+}
+.lets-start-btn:hover {
+	opacity: 0.6;
+	height: 115px;
+	margin-top: -15px;
+}
+
+.lets-start span {
+	text-align: center;
+	position: relative;
+}
+
+.lets-start span:before, .lets-start span:after {
+	content: '';
+	position: absolute;
+	height: 55px;
+	width: 4px;
+	background-color: #d93534;
+}
+.lets-start span:before {
+	transform: rotate(45deg);
+	left: -20px;
+}
+.lets-start span:after {
+	transform: rotate(-45deg);
+	right: -20px;
+}
+.lets-start span:nth-child(2) {
+	bottom: -20px;
+}
+.lets-start span:last-child {
+	bottom: -40px;
+}
